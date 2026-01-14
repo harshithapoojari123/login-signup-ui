@@ -29,7 +29,7 @@ Auth-UI-System/
 ├── index.html
 ├── package.json
 └── vite.config.js
----
+```
 ## Features
 
 - Login form (Email + Password)
