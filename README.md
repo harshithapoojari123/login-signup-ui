@@ -11,25 +11,24 @@ A simple Login & Signup UI built using **React + Vite**.
 
 ---
 ## Project Structure
+```text
 Auth-UI-System/
 ├── public/
-│ ├── image.png
-│ └── vite.svg
+│   ├── image.png         # The Globe/Network background
+│   └── vite.svg
 ├── src/
-│ ├── components/
-│ │ ├── LoginForm.jsx
-│ │ └── SignupForm.jsx
-│ ├── styles/
-│ │ ├── AuthModal.css
-│ │ ├── App.css
-│ │ └── index.css
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   │   ├── LoginForm.jsx  # Sign-in specific logic
+│   │   └── SignupForm.jsx # Sign-up specific logic
+│   ├── styles/
+│   │   ├── AuthModal.css  # Core Glassmorphic styling
+│   │   ├── App.css
+│   │   └── index.css      # Global resets
+│   ├── App.jsx            # Main state management & layout
+│   └── main.jsx
 ├── index.html
 ├── package.json
-├── vite.config.js
-└── README.md
-
+└── vite.config.js
 ---
 ## Features
 
